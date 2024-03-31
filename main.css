@@ -1,6 +1,7 @@
 body {
     background-image: url("asset/background.png");
     background-size: cover;
+    background-attachment: fixed;
     margin:0;
 }
 
@@ -25,7 +26,7 @@ a {
     position: fixed;
     top: 0; 
     width: 100%; 
-    background-color: #00e1ff2a;
+    background-color: #00e1ff88;
     box-shadow: 0 0 10px #000000;
     float: left;
 }
@@ -55,10 +56,42 @@ div p {
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
+    background-color: #ffffff71;
+}
+
+.divisi p {
     color: #000000;
-    background-color: #ffffff;
 }
 
 .image {
-    padding: 10px 80px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.tengah {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    background-color: #000000;
+    color: white;
+    padding: 30px 10px;
+}
+
+.link {
+    font-family: "Montserrat", sans-serif;
+    font-size: 21px;
+    padding-right: 250px;
+}
+
+.con {
+    margin-left: 300px;
+    padding-top: 10px;
+    margin-right: 100px;
 }
