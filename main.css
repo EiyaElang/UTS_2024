@@ -20,6 +20,8 @@ a:hover {
 
 div a {
     float: middle;
+    margin: 0 30px;
+    font-size: 25px;
 }
 
 .header {
