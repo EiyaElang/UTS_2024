@@ -66,6 +66,7 @@ div p {
     padding-top: 15px;
     padding-bottom: 15px;
     background-color: #ffffff71;
+    box-shadow: 0 0 10px #ff8ff9;
 }
 
 .divisi p {
@@ -102,4 +103,10 @@ div p {
 .con {
     margin-left: 300px;
     padding-top: 10px;
+}
+
+.bold {
+    font-weight: 500px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 60px;
 }
