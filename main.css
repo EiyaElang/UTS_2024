@@ -13,7 +13,16 @@ body {
     margin-right: auto;
     margin-top: 5%;
     margin-bottom: 0%;
+    padding-top: 90px;
 }
+
+.maintext {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+
 a {
     text-decoration: none;
 }
@@ -93,5 +102,4 @@ div p {
 .con {
     margin-left: 300px;
     padding-top: 10px;
-    margin-right: 100px;
 }
