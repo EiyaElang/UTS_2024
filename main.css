@@ -10,11 +10,10 @@ body {
 .navi {
     position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
+    padding-bottom: 4px;
     background-color: rgba(111, 226, 255, 0.658);
-    z-index: 1000; /* Adjust the z-index as needed */   
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for better visibility */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 .header {
     display: flex;
@@ -36,14 +35,14 @@ ul {
 }
 ul li a {
     font-family: "Montserrat", sans-serif;
+    font-weight: 400px;
+    font-size: 20px;
     text-decoration: none;
     color: white;
     padding: 20px 20px 20px 20px;
 }
 ul li a:hover {
-    background-color: #007bff;
-    background-size: 100px 100px;
-
+    background-color: #ff93e4;
 }
 .logo {
     width: 600px;
